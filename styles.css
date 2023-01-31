@@ -1,0 +1,77 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+nav {
+    padding: 1em;
+    font-family: font-family: Verdana, Geneva, sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #333;
+}
+nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-size: medium;
+    text-align: center;
+}
+nav li a:hover {
+    background: tomato;
+    color: white;
+}
+
+@media screen and (min-width: 775px) {
+    nav ul {
+        display: flex;
+        font-size: medium;
+        text-align: center;
+        justify-content: flex-end;        
+    }
+}
+
+button{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .2em .2em;
+    background: #333;
+    font-size: small;
+    align-self: flex-end;
+}
+
+button:hover {
+    background: tomato;
+    color: white;
+}
+
+.border {
+    padding: 5px;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+li {
+    text-align: left;
+}
+
+#parrafo{
+    text-align: justify;
+}
